@@ -31,4 +31,4 @@ Diffent between Abstrct class and Interface
 	- abstrct class members have access modifier but interface member can't have access modifiers
 What is OOPS?
 What is prdicates?
-What is tupple in C#
+What is tupple in C#?
