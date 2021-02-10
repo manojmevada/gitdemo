@@ -29,3 +29,4 @@ Diffent between Abstrct class and Interface
 	- Interface can inherite only from inheritance but abstrct class can inherite from interface and / or another abstrct class
 	- class can be inherite from multiple interfaces but not from multiple classes 
 	- abstrct class members have access modifier but interface member can't have access modifiers
+What is OOPS?
