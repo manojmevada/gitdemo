@@ -1,0 +1,31 @@
+SOLID Principle 
+	S - Single Responsibility Principle
+			- One responsibility of class 
+			- Easre to Understand 
+			- Easyer to maintain 
+			- Changed less frequently 
+			- easily and thoughtly testable 
+	O - Open/Close Principle
+		- it is open for extension but closed for modification 
+			- Not allowing modification so not introducting bugs
+			- all depednet class will not need to adopt 
+			- if you are using interface then you are using Open/Close Principle
+	L Liskov Substitutable Principle
+		- subclass should be Substitutable by is base class without any negative impact to the caller
+			- caller don't get surpricing behiovers when Substitutation applies
+			- complex bug might be avoided easily as it may occure due conflicting behiovers between inheritance 
+	I Interface segregation Principle
+		- multiple interface instead generic single interface
+			- Same as Single responsibility Principle, easily maintain and manage
+			- work and hand and hand with Single responsibility Principle
+	D Dependency inversion Principle
+		- Classes should only depend on contract means interface or abstrct class instead of concreat implmentation 
+			- closely related to Open/Close Principle
+---------------------------------------------------------
+Diffent between Abstrct class and Interface
+	- Abstrct class may have implmentation for some methods but interface don't have it
+	- Abstrct Classes member by default private 
+	- Interface can't have fields but Abstrct class have fields
+	- Interface can inherite only from inheritance but abstrct class can inherite from interface and / or another abstrct class
+	- class can be inherite from multiple interfaces but not from multiple classes 
+	- abstrct class members have access modifier but interface member can't have access modifiers
